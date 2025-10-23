@@ -3,10 +3,21 @@
 {% block content %}
 <div class="hero">
   <h1>Welcome to Yardly 🌱</h1>
-  <p>Connecting top talent with amazing employers.</p>
-  <div class="hero-buttons">
-    <a href="/candidates/" class="btn-candidates">For Candidates</a>
-    <a href="/employers/" class="btn-employers">For Employers</a>
-  </div>
+  <section class="text-center py-5">
+    <div class="container">
+      <h1 class="display-5 fw-bold">
+        Real candidates, real people, <br>
+        real feedback, no AI fluff
+      </h1>
+      <p class="lead mt-3">
+        Connect with genuine talent and authentic feedback from professionals.
+      <div class="flex-container">
+      <div class="d-flex flex-column flex-sm-row justify-content-center gap-2 mt-4">
+        <a href="/candidates/" class="btn btn-primary btn-lg">For Candidates</a>
+        <a href="/employers/" class="btn btn-secondary btn-lg">For Employers</a>
+      </div>
+    </div>
+  </section>
+  
 </div>
 {% endblock %}
