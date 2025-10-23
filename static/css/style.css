@@ -86,3 +86,10 @@ footer {
     font-size: 1.5rem;
   }
 }
+.navbar a {
+  color: #1a1a1a !important; /* dark text for visibility */
+}
+
+.navbar a:hover {
+  color: #00c49a !important; /* maintain hover accent */
+}
